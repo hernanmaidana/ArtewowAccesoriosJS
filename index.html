@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte WOW Accesorios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://kit.fontawesome.com/0b7e805c62.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-3 mb-2 bg-white rounded navegacion>
+            <div class=" container-fluid">
+            <a class="navbar-brand" href=""><img src="./img/logo-chiquito.jpg" alt="logo" class="navegacion__logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto navegacion__menu">
+                    <li class="navegacion__li"><a href="">¿Quienes somos?</a></li>
+                    <li class="navegacion__li"><a href="">Preguntas frecuentes</a></li>
+                    <li class="navegacion__li"><a href="">Contacto</a></li>
+                    <li class="navegacion__li"><button id="abrirCarrito"
+                            class="buttonCarrito d-flex align-items-center justify-content-center">Carrito🛒<b
+                                id="contadorCarrito"></b>
+                        </button></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <section class="hero__principal">
+                <h1 class="hero__title">ArteWowAccesorios</h1>
+                <p class="hero__descripcion">¡Hecho a mano!</p>
+            </section>
+        </div>
+    </header>
+    <main>
+        <h1 class="titleTienda">Tienda</h1>
+        <div id="modalCarrito" class="modalCarrito d-none">
+            <div>
+                <h3 class="titleCarrito">CARRITO</h3>
+            </div>
+            <hr class="linea">
+
+            <div id="contenidoCarrito"></div>
+
+            <div class="precioProducto pt-2">
+                <p>Precio total: $ <span id="precioTotal">0</span></p>
+            </div>
+
+            <button id="vaciarCarrito" class="btn btnModal btn-warning mt-3">Vaciar</button>
+            <button id="confirmarCarrito" class="btn btnModal btn-warning">Confirmar</button>
+        </div>
+
+        <div class="container mt-5">
+            <div id="menu" class="d-flex container flex-wrap gap-4 justify-content-center"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h5 class="footerSeguinos">¡Seguinos!</h5>
+        <div class="redes">
+            <div class="redes__footer">
+                <a href="https://www.instagram.com/artewowacc/" target="_blank"><i
+                        class="fa-brands fa-instagram redes__iconos"></i></a>
+                <a href="https://www.facebook.com/artewowacc" target="_blank"><i
+                        class="fa-brands fa-facebook redes__iconos"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <strong>© 2023 - Derechos reservados - Cc GHM BKR</strong>
+        </div>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

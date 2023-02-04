@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@300&family=Montserrat:wght@100;300;700&family=Open+Sans:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* BARRA NAVEGADORA*/
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.navegacion__logo {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.navegacion__menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+.navegacion__li a {
+    margin: 0 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+}
+
+.navegacion__li a:hover {
+    color: #FEBD59;
+}
+/* BOTON CARRITO*/
+.buttonCarrito {
+    border-radius: 10%;
+    outline: none;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    color: #FEBD59;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+.titleTienda {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;    
+    text-align: center;
+    color: #FEBD59;
+}
+
+.titulo {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;    
+    text-align: center;
+    color: #FEBD59;
+}
+
+.subtitulo {
+    font-size: 2rem;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: gray;
+}
+
+.compra {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #FEBD59;
+}
+
+.compra__total {
+    font-size: 2rem;
+    font-family: 'Dongle', sans-serif;
+    color: gray;
+}
+
+.stockGrilla {
+    margin-left: 1rem;
+}
+
+/*CARDS*/
+.card {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    justify-content:space-between;
+}
+
+/*FOOTER ---> REDES*/
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.redes a {
+    text-decoration: none;
+    color: gray;
+}
+
+.redes a i:hover{
+    color: #FEBD59;
+    transform: scale(1.1);
+    transition: ease-in-out .3s
+}
+
+.redes__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.redes__footer a {
+    margin: 0 7%;
+}
+
+.redes__iconos {
+    text-decoration: none;
+    color: #FEBD59;
+    font-size: 40px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.footerSeguinos {
+    margin-top: 2%;
+    padding-top: 1%;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    color: #FEBD59;
+
+}
+
+.footer:hover {
+    color: #FEBD59;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #000000;
+}
+
+/* CARRITO EVERYWHERE*/
+.modalCarrito {
+    background-color: #DCDCDC;
+    width: 350px;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    z-index: 100;
+    top: 0;
+    margin-top: 150px;
+    right: 0;
+}
+
+
+.itemsCarrito {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-family:'Open Sans', sans-serif;
+    text-align: left;
+    column-gap: 0.5rem;}
+
+.botonEliminar {
+    background-color: #DCDCDC;
+    border: none;
+    height: 2px;
+}
+
+.btnModal {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    margin-bottom: 5px;
+}
+.precioProducto {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: grey;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titleCarrito {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    background-color: #C0C0C0;
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-family: 'Dongle', sans-serif;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.linea {
+    border-top: 2px solid black;
+    margin-top: -5px;
+}
+
+.botonCarrito {
+    font-size: 1rem;
+    border: none;
+    height: 2rem;
+    background-color: #D6DBDF;
+    color: gray;
+    width: 2rem;
+    text-decoration: none;
+    margin-top: 50%;
+    border-radius: 5px;
+}
+
+#contadorCarrito {
+    background-color: #FEBD59;
+    color: white;
+    padding: 4px;
+    border-radius: 50%; 
+    top: 70px;
+    right: 3px;
+    font-size: 0.5rem;
+    position: absolute;
+}
+
+/*PROPIEDADES DE LA PORTADA*/
+.hero {
+    background-image: url(../img/fondo-pag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    position: relative; }
+.hero__principal {
+    position: absolute;
+    top: 40%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+.hero__title {
+    font-size: 6rem;
+    letter-spacing: 7px;
+    font-family: "Bebas Neue", cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    display: flex;
+    text-align: center; }
+.hero__descripcion {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    text-transform: uppercase;
+    display: flex;
+    text-align: center; }

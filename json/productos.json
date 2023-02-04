@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1, 
+        "nombre": "Articulo1", 
+        "precio": 1570, 
+        "descripcion": "Aromatizador Dia", 
+        "cantidad": 1,
+        "img": "./img/1.png"
+    },
+
+    {
+        "id": 2, 
+        "nombre": "Articulo2", 
+        "precio": 1570, 
+        "descripcion": "Aromatizador Noche", 
+        "cantidad": 1,
+        "img": "./img/2.png"
+    },
+
+    {
+        "id": 3, 
+        "nombre": "Articulo3", 
+        "precio": 1240, 
+        "descripcion": "Collar doble rojo + OJO TURCO", 
+        "cantidad": 1,
+        "img": "./img/3.png"
+    },
+
+    
+    {
+        "id": 4, 
+        "nombre": "Articulo4", 
+        "precio": 1200, 
+        "descripcion": "Collar correa anteojos", 
+        "cantidad": 1,
+        "img": "./img/4.jpg"
+    },
+
+    {
+        "id": 5, 
+        "nombre": "Articulo5", 
+        "precio": 1500, 
+        "descripcion": "Llavero ojo turco + pimientos", 
+        "cantidad": 1,
+        "img": "./img/5.png"
+    },
+
+    {
+        "id": 6, 
+        "nombre": "Articulo6", 
+        "precio": 1450, 
+        "descripcion": "Llavero ojo turco cosido", 
+        "cantidad": 1,
+        "img": "./img/6.jpg"
+    },
+    
+    {
+        "id": 7, 
+        "nombre": "Articulo7", 
+        "precio": 2800, 
+        "descripcion": "Colgante ojo turco + minis", 
+        "cantidad": 1,
+        "img": "./img/7.png"
+    },
+    
+    {
+        "id": 8, 
+        "nombre": "Articulo8", 
+        "precio": 2500, 
+        "descripcion": "Kit Spray + Llavero + Vela", 
+        "cantidad": 1,
+        "img": "./img/8.png"
+    },
+
+    {
+        "id": 9, 
+        "nombre": "Articulo9", 
+        "precio": 2790, 
+        "descripcion": "Kit Spray + Pulsera + Viajero", 
+        "cantidad": 1,
+        "img": "./img/9.png"
+    },
+    
+    {
+        "id": 10, 
+        "nombre": "Articulo10", 
+        "precio": 2990, 
+        "descripcion": "Kit + Pulseras + LLavero", 
+        "cantidad": 1,
+        "img": "./img/10.png"
+    },
+
+    {
+        "id": 11, 
+        "nombre": "Articulo11", 
+        "precio": 630, 
+        "descripcion": "Pulsera Ojo turco", 
+        "cantidad": 1,
+        "img": "./img/11.png"
+    },
+
+    {
+        "id": 12, 
+        "nombre": "Articulo12", 
+        "precio": 770, 
+        "descripcion": "Pulsera 7 nudos", 
+        "cantidad": 1,
+        "img": "./img/12.jpg"
+    },
+
+    {
+        "id": 13, 
+        "nombre": "Articulo13", 
+        "precio": 1230, 
+        "descripcion": "Pulsera piedra Volcanica", 
+        "cantidad": 1,
+        "img": "./img/13.png"
+    },
+
+    {
+        "id": 14, 
+        "nombre": "Articulo14", 
+        "precio": 960, 
+        "descripcion": "Pulsera Calavera", 
+        "cantidad": 1,
+        "img": "./img/14.jpg"
+    },
+
+    {
+        "id": 15, 
+        "nombre": "Articulo15", 
+        "precio": 860, 
+        "descripcion": "Pulsera San benito + Ojo turco", 
+        "cantidad": 1,
+        "img": "./img/15.png"
+    },
+    
+    {
+        "id": 16, 
+        "nombre": "Articulo16", 
+        "precio": 850, 
+        "descripcion": "Pulsera Ancla", 
+        "cantidad": 1,
+        "img": "./img/16.png"
+    },
+
+    {
+        "id": 17, 
+        "nombre": "Articulo17", 
+        "precio": 1000, 
+        "descripcion": "Vela Ojo Turco AZUL", 
+        "cantidad": 1,
+        "img": "./img/17.jpg"
+    },
+
+    {
+        "id": 18, 
+        "nombre": "Articulo18", 
+        "precio": 1000, 
+        "descripcion": "Vela Ojo Turco AMARILLA", 
+        "cantidad": 1,
+        "img": "./img/18.jpg"
+    },
+
+    {
+        "id": 19, 
+        "nombre": "Articulo19", 
+        "precio": 1000, 
+        "descripcion": "Vela Ojo Turco VIOLETA", 
+        "cantidad": 1,
+        "img": "./img/19.jpg"
+    },
+
+    {
+        "id": 20, 
+        "nombre": "Articulo20", 
+        "precio": 1900, 
+        "descripcion": "Atrapasoles 7 Chakras", 
+        "cantidad": 1,
+        "img": "./img/20.jpg"
+    }
+]
